@@ -4,9 +4,43 @@
 }
 
 body {
+    margin: 0 auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    /* color: #777; */
+    color: #777;
     background: #777;
     width: 960px;
     font-size: 18px;
+    text-align: center;
+}
+
+.header-container, .nav-container, .section-container, .aside-container, .h1-container, .p-container, .footer-container {
+    background: #ebebeb;
+}
+
+.header-container {
+    margin: 10px 0;
+    padding: 35px;
+}
+
+.nav-container {
+    margin-bottom: 10px;
+    padding: 35px;
+}
+
+.section-container {
+
+}
+
+.article-container {
+    background: #777;
+    color: #ebebeb;
+}
+
+.h1-container, .p-container {
+    color: #777;
+    background: #ebebeb;
+}
+
+.h1-container {
+    font-weight: bold;
 }
