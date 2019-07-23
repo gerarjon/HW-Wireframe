@@ -27,20 +27,46 @@ body {
     padding: 35px;
 }
 
-.section-container {
+.main-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+.section-container {
+    margin: 10px 10px 20px 0px;
+    padding: 40px 0;
+    width: 495px;
+    height: 200px;
+    float: left;
+}
+
+.aside-container {
+    margin: 10px 0px 20px 10px;
+    padding: 40px 0;
+    width: 445px;
+    float: left;
+    height: 200px;
 }
 
 .article-container {
     background: #777;
     color: #ebebeb;
+    margin: 30px 10px 10px 10px;
+    padding: 20px;
 }
 
 .h1-container, .p-container {
     color: #777;
     background: #ebebeb;
+    padding: 10px;
 }
 
 .h1-container {
     font-weight: bold;
+    margin: 20px 0px 10px 0px;
+}
+
+.footer-container {
+    padding: 35px;
+    clear: both;
 }
